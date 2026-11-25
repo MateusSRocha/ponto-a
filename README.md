@@ -1,12 +1,10 @@
-# 🚗 Ponto A
+# Ponto A
 
 > Landing page de demonstração para um aplicativo fictício de mobilidade urbana.
 
 O **Ponto A** é um projeto de front-end que apresenta uma empresa de transporte por aplicativo: quem somos, serviços, botões de download, guia de uso e termos de uso.
 
-> ⚠️ **Projeto de demonstração.** Marca, logotipo, contatos e textos são fictícios e não representam nenhuma empresa real. Todas as imagens foram geradas especificamente para este projeto.
-
-![Prévia do site](img/preview.png)
+> **Projeto de demonstração.** Marca, logotipo, contatos e textos são fictícios e não representam nenhuma empresa real. Todas as imagens foram geradas especificamente para este projeto.
 
 ## Funcionalidades
  

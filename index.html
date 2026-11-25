@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ponto A | Peça sua corrida e chegue ao destino</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/termos.css">
+    <link rel="stylesheet" href="./assets/css/comousar.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="menu">
+            <div class="logo">
+                <a href="">
+                    <img src="./assets/img/logodoapp.png" alt="Ponto A">
+                </a>
+            </div>
+            <div class="nav-bar">
+                <nav class="nav-item">
+                    <ul>
+                        <li><a href="#header">INÍCIO</a></li>
+                        <li><a href="#about">QUEM SOMOS</a></li>
+                        <li><a href="#download">BAIXE O APP</a></li>
+                        <li><a href="#services">SERVIÇOS</a></li>
+                        <li><button onclick="termos()">TERMOS DE USO</button></li>
+                        <li><a href="#footer">CONTATO</a></li>
+                    </ul>
+                </nav>
+                <button onclick="menuShow()"><i class="bi bi-list"></i></button>
+            </div>
+        </div>
+        <div class="filtro"></div>
+        <img src="./assets/img/hero.jpg" alt="Ilustração de uma cidade ao entardecer">
+        <div class="slogan">
+            <h2>Peça sua corrida, <br>
+                <span class="nome">PONTO A</span> te leva!
+            </h2>
+        </div>
+    </header>
+    <main>
+        
+        <div class="caixa">
+            <div id="about">
+                <h1>SOBRE NÓS</h1>
+                <div class="about-data">
+                    <div class="about-text">
+                        <p>
+                            Somos uma empresa especializada em mobilidade urbana, comprometida em proporcionar
+                            conforto, qualidade e tarifas acessíveis aos nossos usuários. </p>
+                        <p>
+                            Nossa principal missão é estabelecer a ligação ideal entre você e
+                            nossos parceiros motoristas por meio de um sistema de transporte eficaz. </p>
+                    </div>
+                    <div class="about-img">
+                        <img src="./assets/img/celular.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="caixa">
+            <div class="download-section" id="download">
+                <button><a href="" target="_blank"><img src="assets/img/apple.png" alt="Baixar na Apple Store"></a></button>
+                <button><a href="" target="_blank"><img src="assets/img/playstore.png" alt="Baixar na Play Store"></a></button>
+            </div>
+        </div>
+        <div class="caixa">
+            <div id="services">
+                <div class="sob-data">
+                    <div>
+                        <h4>SERVIÇOS</h4>
+                        <h3>São nossos principais serviços</h3>
+                    </div>
+                </div>
+                <div class="data">
+                    <div class="comum">
+                        <h3>Comum</h3>
+                        <p>
+                            O "Comum" é a escolha perfeita para quem busca conveniência e conforto em suas viagens. Seja
+                            uma viagem a negócios, lazer ou qualquer outra finalidade, o "RodaPatos" está pronto para
+                            atender às suas necessidades de transporte, proporcionando uma experiência tranquila e
+                            agradável.
+                        </p>
+
+                    </div>
+                    <div class="comum">
+                        <h3>Pet</h3>
+                        <p>
+                            O "Pet" é um serviço do aplicativo "RodaPatos" que permite que amantes de pets viajem com
+                            seus animais de estimação, tornando as viagens mais convenientes e agradáveis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="contact-info">
+                <h3>Contato</h3>
+                <p><i class="bi bi-phone"></i> (83) 99123-1234</p>
+                <p><i class="bi bi-envelope"></i> <a
+                        href="#">ponto-a@hotmail.com</a></p>
+            </div>
+            <div class="social-links">
+                <h3>Siga-nos</h3>
+                <a href="#" target="_blank">
+                    <i class="bi bi-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <div class="pages">
+            <h3>Páginas</h3>
+            <div class="page-links">
+                <button onclick="UsarApp()">Uso do Aplicativo</button><br>
+                <button onclick="termos()">Nossos Termos de Uso</button>
+            </div>
+        </div>
+        <div class="support">
+            <h3>SUPORTE AO CLIENTE PELO WHATSAPP</h3>
+            <a href="#" target="_blank">
+                <div class="whatsapp">
+                    <p><i class="bi bi-phone"></i> (83) 99123-1234</p>
+                </div>
+            </a>
+        </div>
+    </footer>
+
+    <script src="./assets/js/menu.js"></script>
+
+    <div id="usarapp">
+        <div class="usarapp-texto">
+            <h3>COMO USAR O APLICATIVO</h3> <br>
+            <p>
+                1. Baixe o Aplicativo: Primeiro, vá até a loja de aplicativos do seu dispositivo e faça o download do
+                aplicativo "Ponto A".
+            </p><br>
+
+            <p>
+                2. Cadastro: Após o download, abra o aplicativo e siga o processo de cadastro, preenchendo seus dados
+                pessoais conforme solicitado.
+            </p><br>
+
+            <p>
+                3. Solicitar uma Corrida: Clique em "Escolher Destino" e aguarde alguns segundos.
+            </p><br>
+
+            <p>
+                4. Informações de Destino:
+            </p>
+            <p>- Selecione o ponto de partida, caso sua localização esteja ligada ele será completado automaticamente.
+            </p>
+            <p>
+                - No campo "Destino", digite o nome do local para onde deseja ir.
+            </p>
+            <p>
+                - Se você não souber o nome da rua, você pode inserir um ponto de referência próximo, como um colégio,
+                bar, restaurante, supermercado etc.
+            </p>
+            <p>
+                - Clique no botão “+” para adicionar alguma parada durante o trajeto e clique na estrela caso queira
+                favoritar as informações de Partida e Destino.
+            </p><br>
+
+            <p>
+                5. Confirmação e Pagamento:
+            </p>
+            <p>
+                - Escolha o tipo de viagem: Comum (Para até 4 passageiros) ou Pet (Para levar seu bichinho com
+                segurança)
+            </p>
+            <p>
+                - Verifique se o local de origem e destino estão corretos.
+            </p>
+            <p>
+                - Confira a forma de pagamento selecionada, podendo ser: Dinheiro, Pix, Crédito (Máquina), Cartão ou
+                Cupom.
+            </p><br>
+
+            <p>
+                6. Confirmação do Pedido:
+            </p>
+            <p>
+                - Revise o valor estimado da corrida.
+            </p>
+            <p>
+                - Se estiver de acordo com o valor estimado, clique em "Confirmar ".
+            </p>
+
+            <p>
+                Lembre-se de que o valor estimado da corrida pode ser ajustado se o endereço de destino for diferente do
+                planejado inicialmente, já que o aplicativo calcula com base na distância simulada e fará o recalculo se
+                a distância real for maior.
+            </p>
+        </div>
+    </div>
+
+    <div id="termos">
+        <div class="termos-texto">
+            <h3>TERMOS DE USO</h3> <br>
+            <p>
+                Os termos de uso são regras gerais de funcionamento do serviço e serão consideradas lidas, entendidas e
+                aceitas, incondicionalmente, caso o usuário marque a opção correspondente no aplicativo e complete seu
+                cadastramento, sem prejuízo das demais leis e normas em vigor relativas ao serviços de transporte de
+                passageiros por seus prestadores de serviços.
+            </p><br>
+
+            <h3>1. DO CADASTRAMENTO E SENHAS</h3>
+            <p>
+                1. Os serviços objeto deste termo não englobam a atividade fim de transporte do passageiro que é de
+                inteira responsabilidade do prestador de serviço;
+            </p>
+            <p>
+                2. O cadastramento dos dados para utilização deverá ser feito pelo aplicativo.
+            </p>
+            <p>
+                3. Os serviços serão acessados via internet pelos sites ou aplicativos, utilizando login e senha que são
+                da inteira responsabilidade do usuário;
+            </p><br>
+
+            <h3>2. DAS RESPONSABILIDADES DOS USUÁRIOS;</h3>
+            <p>
+                1. A responsabilidade pela veracidade dos dados é do usuário e este deve responder por falsidade
+                ideológica ou outros prejuízos causados por informações falsas;
+            </p>
+            <p>
+                2. Os usuários devem informar sobre falhas no sistemas;
+            </p>
+            <p>
+                3. Fazer avaliação do prestador de serviço sempre após a prestação do serviço para que haja um
+                monitoramento e contribua assim para a melhoria do serviço.
+            </p><br>
+
+            <h3>3. A PLATAFORMA NÃO SE RESPONSABILIZA POR:</h3>
+            <p>
+                1. Garantia de atendimento de uma chamada feita;
+            </p>
+            <p>
+                2. Qualquer ato inapropriado ou ilegal que venham a ser praticados pelos prestadores de serviço.
+            </p>
+            <p>
+                3. Possíveis atrasos que possam ocorrer face à chamada por problemas de transito ou falha nos serviços
+                ofertados.
+            </p>
+            <p>
+                4. Objetos perdidos ou esquecido dentro dos veículos.
+            </p><br>
+
+            <h3>4. DAS DISPOSIÇÕES GERAIS</h3>
+            <p>
+                1. Estes Termos de Uso não geram nenhum contrato de sociedade, de mandato, franquia ou relação de
+                trabalho com seus usuários.
+            </p>
+            <p>
+                2. É expressamente vedada a reprodução, cópia, modificação ou reutilização de qualquer parte do nosso
+                aplicativo ou elementos de design visual, logotipo ou marca, sem a nossa prévia autorização por escrito,
+                podendo sofrer as sanções aplicáveis.
+            </p>
+            <p>
+                3. Os serviços oferecidos pelo aplicativo são fornecidos “tal como está” e “conforme estiver
+                disponível”; podendo a qualquer momento serem alterados, suspensos, sem prévio aviso.
+            </p><br>
+
+            <h3>5. DA PRIVACIDADE E SEGURANÇA</h3>
+            <p>
+                1. As informações de cadastro não serão repassadas a terceiros estranhos aos serviços ofertados pela
+                plataforma em hipótese alguma.
+            </p>
+            <p>
+                2. Este serviço poderá, a seu critério, fazer uso das informações armazenadas nos seus bancos de dados,
+                conforme descrito acima, por um prazo razoável, sem que exceda os requisitos ou limitações legais, para
+                dirimir quaisquer disputas, solucionar problemas e garantir os direitos desta Plataforma;
+            </p>
+            <p>
+                3. As informações cedidas pelo Usuário e registradas devido ao uso do sistema (com exceção ao conteúdo
+                de mensagens pessoais) servirão como insumos para o mapeamento de informações de mercado e formação de
+                estatísticas;
+            </p>
+            <p>
+                4. Informações adicionais coletadas pelo serviço através da análise da navegação de cada Usuário e que
+                não o torne identificável pessoalmente são de propriedade exclusiva da Plataforma, que pode usar essas
+                informações do modo que melhor julgar apropriada.
+            </p>
+            <p>
+                5. O Usuário que não concordar com o presente Termo e proceder com o cancelamento de seu Cadastro,
+                removerá seus dados para futuras consultas, mas esta remoção não funcionará de maneira retroativa, ou
+                seja, as ações anteriores à essa decisão continuarão armazenados e com uso de acordo com os interesses
+                da Plataforma.
+            </p><br>
+
+            <h3>6. CANCELAMENTO DO CADASTRO</h3>
+            <p>
+                1. O cancelamento do cadastro do usuário poderá ser feito mediante pedido aos administradores da
+                Plataforma através do e-mail de contato com usuário.
+            </p>
+        </div>
+    </div>
+
+    <div class="menu-mobile">
+        <button onclick="menuShow()" class="sair"><i class="bi bi-x-circle"></i></button>
+        <nav class="mobile">
+            <ul>
+                <li><a href="#header" onclick="menuShow()">INÍCIO</a></li>
+                <li><a href="#about" onclick="menuShow()">QUEM SOMOS</a></li>
+                <li><a href="#download" onclick="menuShow()">BAIXE O APP</a></li>
+                <li><a href="#services" onclick="menuShow()">SERVIÇOS</a></li>
+                <li><button onclick="menuShow();termos();">TERMOS DE USO</button></li>
+                <li><a href="#footer" onclick="menuShow()">CONTATO</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <script src="./assets/js/comousar.js"></script>
+    <script src="./assets/js/termos.js"></script>
+</body>
+
+</html>

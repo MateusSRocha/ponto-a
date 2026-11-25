@@ -1,0 +1,30 @@
+#usarapp {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    position: fixed;
+    display: none;
+    place-items: center;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.459);
+    backdrop-filter: blur(3px);
+}
+
+#usarapp.abrir {
+    display: grid;
+}
+
+.usarapp-texto {
+    max-width: 700px;
+    height: 500px;
+    background-color: white;
+    overflow: auto;
+    padding: 25px;
+    margin: 0 20px;
+}
+
+.usarapp-texto p {
+    text-align: justify;
+}
